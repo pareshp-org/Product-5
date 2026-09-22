@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "name": "Dispatch Alert Welcome",
+      "category": "email",
+      "status": "delivered",
+      "channel": "email",
+      "recipient": "user@example.com"
+    },
+    {
+      "name": "Security Notification Webhook",
+      "category": "webhook",
+      "status": "delivered",
+      "channel": "webhook",
+      "recipient": "https://hooks.internal/sec"
+    },
+    {
+      "name": "Pager Duty Incident Escalation",
+      "category": "sms",
+      "status": "queued",
+      "channel": "sms",
+      "recipient": "+15551234567"
+    }
+  ]
+}
